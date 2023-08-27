@@ -10,7 +10,8 @@
 
 
 
-@media screen and (min-width:416px) {
+
+@media screen and (min-width:416px) and (max-width:455px){
 
     *{
         margin: 0;
@@ -22,7 +23,7 @@
     .page {
         display: grid;
         grid-template-columns: repeat(1, 100%);
-        grid-template-rows: 75px 500px 700px 400px 1250px 730px 150px;
+        /* grid-template-rows: 75px 500px 800px 400px 1250px 730px 150px; */
         grid-template-areas: "header"
         "present-section"
         "about-section"
@@ -154,7 +155,6 @@
         align-items: center;
         flex-direction: column;
         margin-top: 150px;
-        margin-bottom: 30px;
     }
 
     .skills-section img {
@@ -369,7 +369,7 @@
     
 }
 
-@media screen and (min-width: 458px) {
+@media screen and (min-width: 458px) and (max-width: 580px){
     *{
         margin: 0;
         padding: 0;
@@ -380,7 +380,7 @@
     .page {
         display: grid;
         grid-template-columns: repeat(1, 100%);
-        grid-template-rows: 75px 500px 700px 200px 1250px 730px 150px;
+        /* grid-template-rows: 75px 500px 700px 200px 1250px 730px 150px; */
         grid-template-areas: "header"
         "present-section"
         "about-section"
@@ -724,7 +724,7 @@
     }
 } 
 
-@media screen and (min-width: 581px)  {
+@media screen and (min-width: 581px) and (max-width: 800px) {
     *{
         margin: 0;
         padding: 0;
@@ -1082,7 +1082,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media screen and (min-width: 801px)  {
+@media screen and (min-width: 801px) and (max-width: 1900px) {
 
 .header {
     width: 100%;
