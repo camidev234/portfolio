@@ -364,7 +364,7 @@
     }
 } 
 
-@media screen and (min-width: 581px) {
+@media screen and (min-width: 581px) and (max-width: 800px) {
     *{
         margin: 0;
         padding: 0;
@@ -722,7 +722,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media (min-width: 1000px) and (max-width: 1900px) {
+@media screen and (min-width: 801px) and (max-width: 1900px) {
 
 .header {
     width: 100%;
