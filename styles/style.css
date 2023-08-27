@@ -9,7 +9,7 @@
 /* First mobile */
 
 
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     *{
         margin: 0;
         padding: 0;
